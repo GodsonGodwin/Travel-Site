@@ -78,6 +78,7 @@
 @media screen and  (max-width: 960px){
     .NavbarItems{
         position: relative;
+        
     }
 
     .nav-menu{
@@ -102,8 +103,10 @@
 
     .nav-links{
         text-align: center;
+        justify-content: center;
         padding: 2rem;
         width: 100%;
+        margin-top: -250px;
         display: table;
     }
 
@@ -146,6 +149,7 @@
         background-color: transparent;
         color: #fff;
         padding: 14px 20px;
+        margin-top: -220px;
         border: 1px solid #fff;
         transition: all 0.3s ease-out;
     }
